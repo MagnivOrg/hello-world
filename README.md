@@ -3,4 +3,4 @@
 
 Magniv tasks exist in `/tasks` and we require a `requirements.txt` file.
 
-See our docs for more information
+See our docs for more information.
