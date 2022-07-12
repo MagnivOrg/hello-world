@@ -3,7 +3,6 @@ from datetime import datetime
 
 @task(schedule="@hourly")
 def hello_world():
-	# Simple "Hello, World" Magniv job
 	print("Hello world, the time is {}".format(datetime.now()))
 
 if __name__ == '__main__':
