@@ -2,7 +2,7 @@ from magniv.core import task
 from datetime import datetime
 
 @task(schedule="@daily")
-def hello_world():
+def helloworld():
 	print("Hello world, the time is {}".format(datetime.now()))
 
 if __name__ == '__main__':
